@@ -3,6 +3,7 @@
 	<head>
 		<title>Portafolio.la</title>
 		<meta charset="UTF-8" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="../static/css/normalize.css" >
 		<link rel="stylesheet" href="../static/css/estilos.css">
 	</head>
@@ -27,62 +28,65 @@
 				</ul>
 			</nav>
 			<figure class="Header-imageContainer">
-				<img src="avatar.jpg" alt="Imagen personal" class="Header-image" />
+				<img src="../static/images/avatar.jpg" alt="Imagen personal" class="Header-image" />
 				<!-- figcaption => Descripción de la imagen -->
 				<figcaption class="Header-imageDescription">
 					<a class="Header-link" href="http://twitter.com/drako_darpan" target="_blank">@drako_darpan</a>
 				</figcaption>
-				<p class="Header-name">David</p>
 			</figure>
+			<p class="Header-name">David</p>
 		</header>
 		<section id="perfil" class="Profile">
 			<!-- Contenido de perfil -->
 			<h2 class="Profile-title u-title">Mi Perfil</h2>
 			<p class="Profile-description">
-				Hola! si llegaste hasta aqui, puedes ver mi portafolio y contactarme
+				<strong>Hola!</strong> si <span class="Profile-span">llegaste</span>
+				hasta aqui, puedes ver mi portafolio y <em>contactarme</em>
 			</p>
 			<a class="Profile-link" href="http://twitter.com/drako_darpan" target="_blank" >@drako_darpan</a>
-			<a class="Profile-link" href="http://facebook.com/david.darpan" >daviddarpan</a>
-			<a class="Profile-link" href="http://github.com/drakodarpan" >drakodarpan</a>
+			<a class="Profile-link" href="http://facebook.com/david.darpan"target="_blank" >daviddarpan</a>
+			<a class="Profile-link" href="http://github.com/drakodarpan" target="_blank" >drakodarpan</a>
 		</section>
 		<section id="trabajo" class="Work">
 			<!-- Links -->
 			<h2 class="Work-title u-title">Mi trabajo</h2>
 			<article class="Work-item">
 					<figure class="Work-imageContainer">
-						<img src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+						<img src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
 						<figcaption class="Work-description">Website de mejorando.la</figcaption>
 					</figue>
 			</article>
 			<article class="Work-item">
 					<figure class="Work-imageContainer">
-						<img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+						<img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
 						<figcaption class="Work-description">Website de mejorando.la</figcaption>
 					</figue>
 			</article>
 			<article class="Work-item">
 					<figure class="Work-imageContainer">
-						<img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+						<img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
 						<figcaption class="Work-description">Website de mejorando.la</figcaption>
 					</figue>
 			</article>
 			<article class="Work-item">
 					<figure class="Work-imageContainer">
-						<img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+						<img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
 						<figcaption class="Work-description">Website de mejorando.la</figcaption>
 					</figue>
 			</article>
 			<article class="Work-item">
 					<figure class="Work-imageContainer">
-						<img src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
+						<img src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
 						<figcaption class="Work-description">Website de mejorando.la</figcaption>
 					</figue>
 			</article>
 		</section>
 		<footer id="contacto" class="Footer">
 			<!-- Pie de pagina, contactos -->
-			<h3 class="Footer-title">Mi Perfil</h3>
-			<p class="Footer-description">Si tienes alguna sugerencia, ponte en contacto por medio de este formulario:</p>
+			<div class="Footer-left">
+				<h3 class="Footer-title">Contacto</h3>
+				<p class="Footer-description">Si tienes alguna sugerencia, ponte en contacto por medio de este formulario:</p>
+			</div>
 			<form class="Footer-form">
 				<input class="Footer-formInput" type="text" placeholder="Nombre" />
 				<input class="Footer-formInput" type="email" placeholder="Email" />
